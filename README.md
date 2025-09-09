@@ -1,98 +1,150 @@
 # Nexus Dashboard [<img src="https://i.imgur.com/oMcxwZ0.png" alt="Eva Design System" height="20px" />](https://eva.design)
 
-[Live Demo](#) | [Documentation](#) | [Installation Guidelines](#)
+[🚀 Live Demo](#) | [📚 Documentation](#) | [⚡ Quick Start](#)
 
-# Admin template based on Angular and <a href="https://github.com/akveo/nebular">Nebular</a>
+# Modern Angular Admin Dashboard Template
 
 <a target="_blank" href="#"><img src="https://i.imgur.com/mFdqvgG.png"/></a>
 
-## About Nexus Dashboard
+## 🎯 About Nexus Dashboard
 
-Nexus Dashboard is a comprehensive Angular admin template built for modern web applications. This project demonstrates advanced Angular development skills and showcases a complete admin dashboard solution.
+Nexus Dashboard is a comprehensive Angular admin template built for modern web applications. This project demonstrates advanced Angular development skills and showcases a complete admin dashboard solution with modern UI components, responsive design, and professional architecture.
 
 <!-- ## 🚀 Live Demo
 
 [View Live Demo](#) - Experience the full functionality of Nexus Dashboard -->
 
-## Key features
+## 🛠️ Technologies Used
 
-- Modern Angular admin dashboard template with comprehensive UI components
-- Over 40+ Angular Components and 60+ Usage Examples
-- Responsive design with multiple theme support
-- Built with Angular Material and Nebular for optimal performance
+- **Angular 15.2.10** - Modern web framework
+- **TypeScript 4.9.5** - Type-safe JavaScript
+- **Nebular UI Components** - Professional UI library
+- **Chart.js, ECharts, D3** - Data visualization
+- **Bootstrap 4.3.1** - Responsive CSS framework
+- **RxJS** - Reactive programming
+- **SCSS** - Enhanced CSS styling
 
-### What's included:
+## ✨ Key Features
 
-- Angular & Typescript
-- Bootstrap 4+ & SCSS
-- Responsive layout
-- RTL support
-- High resolution
-- Flexibly configurable themes with **hot-reload** (3 themes included)
-- Authentication module with multiple providers
-- 40+ Angular Components
-- 60+ Usage Examples
+- 🎨 **Modern Design** - Clean, professional interface with custom theming
+- 📱 **Responsive Layout** - Works perfectly on all device sizes
+- 🎭 **Multiple Themes** - 4 built-in themes (Default, Cosmic, Corporate, Dark)
+- 📊 **Rich Data Visualization** - Charts, graphs, and interactive components
+- 🔐 **Authentication System** - Complete auth flow with role-based access
+- 📋 **Data Tables** - Advanced tables with sorting, filtering, and pagination
+- 🗺️ **Maps Integration** - Google Maps and Leaflet support
+- 📝 **Rich Text Editors** - TinyMCE and CKEditor integration
+- 🎯 **40+ UI Components** - Comprehensive component library
+- ⚡ **Performance Optimized** - Fast loading and smooth animations
 
-## Themes
+## 📸 Screenshots
 
-Nexus Dashboard comes with multiple built-in themes for different use cases and preferences.
+### Dashboard Overview
+![Dashboard](https://i.imgur.com/mFdqvgG.png)
 
-### Templates
+### Theme Variations
+- **Default Theme** - Clean and professional
+- **Cosmic Theme** - Dark with vibrant colors
+- **Corporate Theme** - Business-focused design
+- **Dark Theme** - Modern dark mode
 
-<a href="https://www.akveo.com/templates/fleet-management-dashboard?utm_campaign=services%20[…]x-admin%20&utm_medium=referral%20&utm_content=github_banner%20"><img src="https://i.imgur.com/Z8EwGfh.png"></a>
+## 🚀 Getting Started
 
-### With 6 stunning visual themes
+### Prerequisites
+- Node.js 14.14+ 
+- npm or yarn package manager
+- Angular CLI
 
-| <a target="_blank" href="https://demo.akveo.com/ngx-admin/pages/dashboard?theme=material-dark&utm_campaign=ngx_admin%20-%20demo%20-%20ngx_admin%20docs&utm_source=ngx_admin&utm_medium=referral&utm_content=ngx_admin_material_themes_material_dark"><img src="https://i.imgur.com/67YAlhf.png"/></a> | <a target="_blank" href="https://demo.akveo.com/ngx-admin/pages/dashboard?theme=material-light&utm_campaign=ngx_admin%20-%20demo%20-%20ngx_admin%20docs&utm_source=ngx_admin&utm_medium=referral&utm_content=ngx_admin_material_themes_material_light"><img src="https://i.imgur.com/aQzw0hD.png"/></a> |
-| --- | --- |
-|  Material Dark | Material Light |
+### Installation
 
-| <a target="_blank" href="https://demo.akveo.com/ngx-admin/pages/dashboard?theme=dark&utm_campaign=ngx_admin%20-%20demo%20-%20ngx_admin%20github%20readme&utm_source=ngx_admin&utm_medium=referral&utm_content=github_readme_theme_dark"><img src="https://i.imgur.com/9UkTGgr.png"/></a> | <a target="_blank" href="https://demo.akveo.com/ngx-admin/pages/dashboard?theme=default&utm_campaign=ngx_admin%20-%20demo%20-%20ngx_admin%20github%20readme&utm_source=ngx_admin&utm_medium=referral&utm_content=github_readme_theme_default"><img src="https://i.imgur.com/Kn3xDKQ.png"/></a> |
-| --- | --- |
-|  Dark| Default |
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/nexus-dashboard.git
+   cd nexus-dashboard
+   ```
 
-| <a target="_blank" href="https://demo.akveo.com/ngx-admin/pages/dashboard?theme=cosmic&utm_campaign=ngx_admin%20-%20demo%20-%20ngx_admin%20github%20readme&utm_source=ngx_admin&utm_medium=referral&utm_content=github_readme_theme_cosmic"><img src="https://i.imgur.com/iJu2YDF.png"/></a> | <a target="_blank" href="https://demo.akveo.com/ngx-admin/pages/dashboard?theme=corporate&utm_campaign=ngx_admin%20-%20demo%20-%20ngx_admin%20github%20readme&utm_source=ngx_admin&utm_medium=referral&utm_content=github_readme_theme_corporate"><img src="https://i.imgur.com/GpUt6NW.png"/></a> |
-| --- | --- |
-| Cosmic  | Corporate |
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-## Documentation
+3. **Start development server**
+   ```bash
+   npm start
+   ```
 
-This template is using [Nebular](https://github.com/akveo/nebular) modules set, [here you can find documentation and other useful articles](https://akveo.github.io/nebular/docs/guides/install-based-on-starter-kit?utm_campaign=nebular%20-%20docs%20-%20ngx_admin%20github%20readme&utm_source=ngx_admin&utm_medium=referral&utm_content=documentation_useful_articles).
+4. **Open your browser**
+   Navigate to `http://localhost:4200`
 
-### Empty starter kit
+### Build for Production
 
-Don't need all the pages and modules and just looking for an empty starter kit for your next project? Check out our [starter-kit branch](https://github.com/akveo/ngx-admin/tree/starter-kit).
+```bash
+npm run build:prod
+```
 
-## BrowserStack
+## 📁 Project Structure
 
-This project runs its tests on multiple desktop and mobile browsers using [BrowserStack](http://www.browserstack.com).
+```
+src/
+├── app/
+│   ├── @core/          # Core services and utilities
+│   ├── @theme/         # UI components and themes
+│   └── pages/          # Application pages
+│       ├── dashboard/  # Main dashboard
+│       ├── charts/     # Chart components
+│       ├── forms/      # Form components
+│       ├── tables/     # Data tables
+│       └── ...
+├── assets/             # Static assets
+└── environments/       # Environment configurations
+```
 
-<img src="https://cloud.githubusercontent.com/assets/131406/22254249/534d889e-e254-11e6-8427-a759fb23b7bd.png" height="40" />
+## 🎨 Customization
 
-## UI Bakery
+### Themes
+The project includes 4 built-in themes that can be easily customized:
+- Modify theme files in `src/app/@theme/styles/`
+- Update color schemes and variables
+- Add your own custom themes
 
-Need a visual admin dashboard builder? Check out [UI Bakery](https://uibakery.io).
+### Components
+- All components are modular and reusable
+- Easy to extend and customize
+- Well-documented code structure
 
-<a href="https://uibakery.io"><img src="https://storage.uibakery.io/video-assets/landing/Logo/UIB%20400x150.png" height="80" /></a>
+## 📱 Features Overview
 
-## More from Akveo
+### Dashboard Components
+- **Status Cards** - Real-time system status
+- **Charts & Graphs** - Interactive data visualization
+- **Data Tables** - Advanced table functionality
+- **Maps** - Google Maps and Leaflet integration
+- **Forms** - Comprehensive form components
+- **Authentication** - Complete auth system
 
-- [Eva Icons](https://github.com/akveo/eva-icons) - 480+ beautiful Open Source icons
-- [Nebular](https://github.com/akveo/nebular) - Angular Components, Auth and Security
-- [Akveo templates](https://www.akveo.com/templates?utm_campaign=services%20-%20github%20-%20templates&utm_source=ngx_admin&utm_medium=referral&utm_content=ngx_admin%20github%20readme%20more%20from%20akveo%20link) - 10+ Ready-to-use apps templates to speed up your apps developments
+### UI Components
+- **Layouts** - Multiple layout options
+- **Navigation** - Sidebar and menu systems
+- **Modals** - Dialog and overlay components
+- **Notifications** - Toast and alert systems
+- **Icons** - Eva Icons integration
 
-## How can I support developers?
+## 🎨 Available Themes
 
-- Star our GitHub repo :star:
-- Create pull requests, submit bugs, suggest new features or documentation updates :wrench:
-- Follow us on [Twitter](https://twitter.com/akveo_inc) :feet:
-- Like our page on [Facebook](https://www.facebook.com/akveo/) :thumbsup:
+Nexus Dashboard comes with 4 stunning built-in themes:
 
-## Looking for engineering services? 
+| Theme | Description | Preview |
+|-------|-------------|---------|
+| **Nexus** | Custom professional theme | ![Nexus Theme](https://i.imgur.com/mFdqvgG.png) |
+| **Cosmic** | Dark theme with vibrant colors | ![Cosmic Theme](https://i.imgur.com/iJu2YDF.png) |
+| **Corporate** | Business-focused design | ![Corporate Theme](https://i.imgur.com/GpUt6NW.png) |
+| **Dark** | Modern dark mode | ![Dark Theme](https://i.imgur.com/9UkTGgr.png) |
 
-Visit [our homepage](https://www.akveo.com?utm_campaign=services%20-%20akveo%20website%20-%20ngx_admin%20github%20readme&utm_source=ngx_admin&utm_medium=referral&utm_content=looking_for_engineering_services_visit_homepage) or simply leave us a message to [contact@akveo.com](mailto:contact@akveo.com). We will be happy to work with you!
+## 📚 Documentation
 
-## From Developers
+- [Angular Documentation](https://angular.io/docs) - Angular framework guide
+- [Chart.js Documentation](https://www.chartjs.org/docs/) - Chart library
+- [ECharts Documentation](https://echarts.apache.org/en/option.html) - Advanced charts
 
 
 ⭐ **Star this repository if you found it helpful!**

@@ -1,13 +1,20 @@
-/**
- * @license
- * Copyright Nexus Dashboard. All Rights Reserved.
- * Licensed under the MIT License. See License.txt in the project root for license information.
- */
-// The file contents for the current environment will overwrite these during build.
-// The build system defaults to the dev environment which uses `environment.ts`, but if you do
-// `ng build --env=prod` then `environment.prod.ts` will be used instead.
-// The list of which env maps to which file can be found in `.angular-cli.json`.
-
 export const environment = {
   production: false,
+  appName: 'Nexus Dashboard',
+  version: '1.0.0',
+  author: 'Fenil Shingala',
+  email: 'fenilshingala464@example.com',
+  github: 'https://github.com/Fenil-Shingala/nexus-dashboard',
+  linkedin: 'https://www.linkedin.com/in/fenil-shingala-a94b17270',
+  description: 'A modern Angular admin dashboard template built for portfolio demonstration',
+  features: [
+    'Responsive Design',
+    'Multiple Themes',
+    'Rich Data Visualization',
+    'Authentication System',
+    'Advanced Tables',
+    'Maps Integration',
+    'Rich Text Editors',
+    '40+ UI Components'
+  ]
 };
